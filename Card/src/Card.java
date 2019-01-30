@@ -15,6 +15,26 @@ public class Card {
 
         private int value;
         
+    private String aaaa;
+
+    /**
+     * Get the value of aaaa
+     *
+     * @return the value of aaaa
+     */
+    public String getAaaa() {
+        return aaaa;
+    }
+
+    /**
+     * Set the value of aaaa
+     *
+     * @param aaaa new value of aaaa
+     */
+    public void setAaaa(String aaaa) {
+        this.aaaa = aaaa;
+    }
+
         public Card(String givenSuit,int givenValue)
         {
             suit=givenSuit;
