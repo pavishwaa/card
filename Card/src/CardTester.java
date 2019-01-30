@@ -14,6 +14,6 @@ public class CardTester {
         Card c1=new Card("Hearts",7);
         c1.setSuit("Spades");
         System.out.println ("New suit is "+ c1.getSuit());
-        
+        System.out.println("Show change...");
     }
 }
