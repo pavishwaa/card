@@ -14,7 +14,7 @@ public class Card {
     //Hearts,Spades,Diamonds,Clubs
 
         private int value;
-        
+        String name= "aaa";
     private String aaaa;
 
     /**
